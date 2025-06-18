@@ -70,14 +70,15 @@ import subprocess
 
 def usage():
     print('Usage:')
-    print('gen_gpio_defaults.py [<path_to_project>] [-test]')
+    print('gen_gpio_defaults.py [<path_to_project>] [<path_to_user_defines>] [-test]')
     print('')
     print('where:')
     print('    <path_to_project> is the path to the project top level directory.')
+    print('    <path_to_user_defines> is the path to the user_defines.v file to use.')
     print('')
     print('  If <path_to_project> is not given, then it is assumed to be the cwd.')
-    print('  The file "user_defines.v" must exist in verilog/rtl/ relative to')
-    print('  <path_to_project>.')
+    print('  If <path_to_user_defines> is not given, then it is assumed to exist')
+    print('  in verilog/rtl/ relative to <path_to_project>.')
     return 0
 
 if __name__ == '__main__':
@@ -114,11 +115,20 @@ if __name__ == '__main__':
 
     if len(arguments) == 0:
         user_project_path = os.getcwd()
-    else:
+        user_defines_path = None
+    elif len(arguments) == 1:
         user_project_path = arguments[0]
+        user_defines_path = None
+    elif len(arguments) == 2:
+        user_project_path = arguments[0]
+        user_defines_path = arguments[1]
 
     if not os.path.isdir(user_project_path):
         print('Error:  Project path "' + user_project_path + '" does not exist or is not readable.')
+        sys.exit(1)
+
+    if user_defines_path and not os.path.isfile(user_defines_path):
+        print('Error:  User defines path "' + user_defines_path + '" does not exist or is not readable or is not a regular file.')
         sys.exit(1)
 
     magpath = user_project_path + '/mag'
@@ -146,8 +156,13 @@ if __name__ == '__main__':
 
     # Parse the user defines verilog file
     kvpairs = {}
-    user_defines_path = vpath + '/rtl/user_defines.v'
+
+    if not user_defines_path:
+        user_defines_path = vpath + '/rtl/user_defines.v'
+
     if not os.path.isfile(user_defines_path):
+        print('Error:  user_defines_path is not pointing to a valid file.')
+        print('Using the default file.')
         user_defines_path = caravel_path + '/verilog/rtl/user_defines.v'
 
     if os.path.isfile(user_defines_path):
