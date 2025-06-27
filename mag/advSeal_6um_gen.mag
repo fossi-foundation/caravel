@@ -19,7 +19,7 @@ transform -1 0 360000 0 -1 520000
 box 0 0 180000 260000
 << properties >>
 string LEFview no_prefix
-string GDS_FILE ../gds/advSeal_6um_gen.gds
+string GDS_FILE ../gds/advSeal_6um_gen.gds.gz
 string GDS_START 0
 string FIXED_BBOX 0 0 360000 520000
 << end >>
