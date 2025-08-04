@@ -1837,43 +1837,43 @@ port 551 nsew signal tristate
 flabel metal3 s 291170 319892 292400 322292 0 FreeSans 560 0 0 0 vccd1
 port 552 nsew signal bidirectional
 flabel metal3 s 291170 314892 292400 317292 0 FreeSans 560 0 0 0 vccd1
-port 553 nsew signal bidirectional
+port 552 nsew signal bidirectional
 flabel metal3 s 0 321921 830 324321 0 FreeSans 560 0 0 0 vccd2
 port 554 nsew signal bidirectional
 flabel metal3 s 0 316921 830 319321 0 FreeSans 560 0 0 0 vccd2
-port 555 nsew signal bidirectional
+port 554 nsew signal bidirectional
 flabel metal3 s 291170 270281 292400 272681 0 FreeSans 560 0 0 0 vdda1
 port 556 nsew signal bidirectional
 flabel metal3 s 291170 275281 292400 277681 0 FreeSans 560 0 0 0 vdda1
-port 557 nsew signal bidirectional
+port 556 nsew signal bidirectional
 flabel metal3 s 291170 117615 292400 120015 0 FreeSans 560 0 0 0 vdda1
-port 558 nsew signal bidirectional
+port 556 nsew signal bidirectional
 flabel metal3 s 291170 112615 292400 115015 0 FreeSans 560 0 0 0 vdda1
-port 559 nsew signal bidirectional
+port 556 nsew signal bidirectional
 flabel metal3 s 0 102444 830 104844 0 FreeSans 560 0 0 0 vdda2
 port 560 nsew signal bidirectional
 flabel metal3 s 0 107444 830 109844 0 FreeSans 560 0 0 0 vdda2
-port 561 nsew signal bidirectional
+port 560 nsew signal bidirectional
 flabel metal3 s 260297 351170 262697 352400 0 FreeSans 960 180 0 0 vssa1
 port 562 nsew signal bidirectional
 flabel metal3 s 255297 351170 257697 352400 0 FreeSans 960 180 0 0 vssa1
-port 563 nsew signal bidirectional
+port 562 nsew signal bidirectional
 flabel metal3 s 291170 73415 292400 75815 0 FreeSans 560 0 0 0 vssa1
-port 564 nsew signal bidirectional
+port 562 nsew signal bidirectional
 flabel metal3 s 291170 68415 292400 70815 0 FreeSans 560 0 0 0 vssa1
-port 565 nsew signal bidirectional
+port 562 nsew signal bidirectional
 flabel metal3 s 0 279721 830 282121 0 FreeSans 560 0 0 0 vssa2
 port 566 nsew signal bidirectional
 flabel metal3 s 0 274721 830 277121 0 FreeSans 560 0 0 0 vssa2
-port 567 nsew signal bidirectional
+port 566 nsew signal bidirectional
 flabel metal3 s 291170 95715 292400 98115 0 FreeSans 560 0 0 0 vssd1
 port 568 nsew signal bidirectional
 flabel metal3 s 291170 90715 292400 93115 0 FreeSans 560 0 0 0 vssd1
-port 569 nsew signal bidirectional
+port 568 nsew signal bidirectional
 flabel metal3 s 0 86444 830 88844 0 FreeSans 560 0 0 0 vssd2
 port 570 nsew signal bidirectional
 flabel metal3 s 0 81444 830 83844 0 FreeSans 560 0 0 0 vssd2
-port 571 nsew signal bidirectional
+port 570 nsew signal bidirectional
 flabel metal2 s 262 -400 318 240 0 FreeSans 560 90 0 0 wb_clk_i
 port 572 nsew signal input
 flabel metal2 s 853 -400 909 240 0 FreeSans 560 90 0 0 wb_rst_i

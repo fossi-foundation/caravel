@@ -4974,10 +4974,6 @@ MACRO user_analog_project_wrapper
       LAYER met3 ;
         RECT 2911.700 3198.920 2924.000 3222.920 ;
     END
-  END vccd1
-  PIN vccd1
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2911.700 3148.920 2924.000 3172.920 ;
@@ -4990,10 +4986,6 @@ MACRO user_analog_project_wrapper
       LAYER met3 ;
         RECT -4.000 3219.210 8.300 3243.210 ;
     END
-  END vccd2
-  PIN vccd2
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT -4.000 3169.210 8.300 3193.210 ;
@@ -5006,26 +4998,14 @@ MACRO user_analog_project_wrapper
       LAYER met3 ;
         RECT 2911.700 2702.810 2924.000 2726.810 ;
     END
-  END vdda1
-  PIN vdda1
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2911.700 2752.810 2924.000 2776.810 ;
     END
-  END vdda1
-  PIN vdda1
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2911.700 1176.150 2924.000 1200.150 ;
     END
-  END vdda1
-  PIN vdda1
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2911.700 1126.150 2924.000 1150.150 ;
@@ -5038,10 +5018,6 @@ MACRO user_analog_project_wrapper
       LAYER met3 ;
         RECT -4.000 1024.440 8.300 1048.440 ;
     END
-  END vdda2
-  PIN vdda2
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT -4.000 1074.440 8.300 1098.440 ;
@@ -5054,26 +5030,14 @@ MACRO user_analog_project_wrapper
       LAYER met3 ;
         RECT 2602.970 3511.700 2626.970 3524.000 ;
     END
-  END vssa1
-  PIN vssa1
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2552.970 3511.700 2576.970 3524.000 ;
     END
-  END vssa1
-  PIN vssa1
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2911.700 734.150 2924.000 758.150 ;
     END
-  END vssa1
-  PIN vssa1
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2911.700 684.150 2924.000 708.150 ;
@@ -5086,10 +5050,6 @@ MACRO user_analog_project_wrapper
       LAYER met3 ;
         RECT -4.000 2797.210 8.300 2821.210 ;
     END
-  END vssa2
-  PIN vssa2
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT -4.000 2747.210 8.300 2771.210 ;
@@ -5102,10 +5062,6 @@ MACRO user_analog_project_wrapper
       LAYER met3 ;
         RECT 2911.700 957.150 2924.000 981.150 ;
     END
-  END vssd1
-  PIN vssd1
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2911.700 907.150 2924.000 931.150 ;
@@ -5118,10 +5074,6 @@ MACRO user_analog_project_wrapper
       LAYER met3 ;
         RECT -4.000 864.440 8.300 888.440 ;
     END
-  END vssd2
-  PIN vssd2
-    DIRECTION INOUT ;
-    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT -4.000 814.440 8.300 838.440 ;
